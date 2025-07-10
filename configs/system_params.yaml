@@ -1,0 +1,33 @@
+# 系统基础参数
+time:
+  interval: 0.25  # 时间间隔 (小时) - 15分钟
+
+# 电池储能参数
+battery:
+  capacity: 500    # 总容量 (kWh)
+  soc_min: 0.2     # 最小SOC (20%)
+  soc_max: 0.95    # 最大SOC (95%)
+  eff_chg: 0.95    # 充电效率
+  eff_dis: 0.95    # 放电效率
+  max_power: 100   # 最大充放电功率 (kW)
+  soc_init: 0.5    # 初始SOC (50%)
+
+# V2G参数
+v2g:
+  num_chargers: 10   # 充电桩数量
+  rated_power: 20    # 单桩额定功率 (kW)
+
+# 电价参数
+pricing:
+  buy_prices:        # 购电价格 (港元/kWh) - 96个时段
+    - 1.3  # 00:00-00:15
+    - 1.3  # 00:15-00:30
+    ...              # (完整96个时段数据)
+    - 3.4  # 峰电时段
+    ...
+  sell_price: 4.0    # FiT售电价格
+
+# 成本参数
+costs:
+  bat_deg: 0.08      # 电池单位循环损耗成本 (港元/kWh)
+  peak_penalty: 120  # 峰值负荷惩罚系数 (港元/kW)
