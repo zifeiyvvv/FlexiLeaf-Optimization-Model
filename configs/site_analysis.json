@@ -1,0 +1,12 @@
+{
+  "search_radius_m": 250.0,
+  "max_buildings": 300,
+  "top_buildings": 15,
+  "default_building_height_m": 30.0,
+  "roof_usable_ratio": 0.65,
+  "facade_usable_ratio": 0.25,
+  "module_efficiency": 0.20,
+  "performance_ratio": 0.82,
+  "roof_orientation_factor": 0.90,
+  "facade_orientation_factor": 0.55
+}

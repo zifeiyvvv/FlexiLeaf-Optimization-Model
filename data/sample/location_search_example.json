@@ -1,0 +1,22 @@
+[
+  {
+    "addressZH": "梳士巴利道 10號",
+    "nameZH": "香港文化中心",
+    "districtZH": "油尖旺區",
+    "x": 835599.0,
+    "y": 817190.0,
+    "nameEN": "HONG KONG CULTURAL CENTRE",
+    "addressEN": "10 SALISBURY ROAD",
+    "districtEN": "Yau Tsim Mong District"
+  },
+  {
+    "addressZH": "香港文化中心",
+    "nameZH": "香港文化中心行政大樓",
+    "districtZH": "油尖旺區",
+    "x": 835644.0,
+    "y": 817260.0,
+    "nameEN": "Hong Kong Cultural Centre Administration Building",
+    "addressEN": "HONG KONG CULTURAL CENTRE",
+    "districtEN": "Yau Tsim Mong District"
+  }
+]

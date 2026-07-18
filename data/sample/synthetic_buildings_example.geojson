@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "name": "synthetic_buildings_example",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "synthetic-1",
+      "properties": {
+        "BUILDING_NAME_EN": "Synthetic Cultural Building A",
+        "BUILDING_HEIGHT": 28,
+        "DATA_NOTE": "Synthetic geometry for offline code testing only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.17010083445324,
+              22.293513718002714
+            ],
+            [
+              114.17078012706288,
+              22.293513744739816
+            ],
+            [
+              114.17078010957498,
+              22.29392012276904
+            ],
+            [
+              114.17010081500116,
+              22.293920096031275
+            ],
+            [
+              114.17010083445324,
+              22.293513718002714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-2",
+      "properties": {
+        "BUILDING_NAME_EN": "Synthetic Cultural Building B",
+        "BUILDING_HEIGHT": 42,
+        "DATA_NOTE": "Synthetic geometry for offline code testing only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.17128956324521,
+              22.29435812614349
+            ],
+            [
+              114.17182329636087,
+              22.29435814348201
+            ],
+            [
+              114.17182328413978,
+              22.294701307117645
+            ],
+            [
+              114.17128954972087,
+              22.294701289778747
+            ],
+            [
+              114.17128956324521,
+              22.29435812614349
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
