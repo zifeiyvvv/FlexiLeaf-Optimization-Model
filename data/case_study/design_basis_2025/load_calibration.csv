@@ -1,0 +1,5 @@
+﻿asset_id,asset_name,building_type,gross_floor_area_m2,annual_eui_kwh_m2,annual_target_energy_kwh,simulated_annual_energy_kwh,source_type
+academic_a,Academic Building A,education,42000,145,6090000.0,6090000.0,blueprint_design_and_engineering_assumption
+residence_b,Residence Building B,residential,50400,80,4032000.0,4032000.0,blueprint_design_and_engineering_assumption
+community_hub_c,Community Hub C,mixed_use,7200,160,1152000.0,1152000.0,blueprint_design_and_engineering_assumption
+ev_charging,Aggregated EV charging,transport,0,0,500000.0,500000.0,blueprint_design_and_engineering_assumption

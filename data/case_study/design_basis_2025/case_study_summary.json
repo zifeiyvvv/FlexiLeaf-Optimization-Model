@@ -1,0 +1,55 @@
+{
+  "case_id": "flexileaf_design_basis_2025",
+  "case_name": "FlexiLeaf Prospective Campus Microgrid — Design Basis 2025",
+  "simulation_year": 2025,
+  "location_status": "planned Hong Kong campus/community demonstration archetype",
+  "data_layers": {
+    "official_open_data": [
+      "HKO daily global solar radiation",
+      "HKO daily relative humidity",
+      "HKO daily bright sunshine",
+      "HKO 2025 annual mean temperature statistic",
+      "CLP 2024 electricity carbon intensity"
+    ],
+    "blueprint_design": [
+      "three planned buildings",
+      "roof/facade/public PV area",
+      "storage and V2G capacities"
+    ],
+    "engineering_assumptions": [
+      "building EUI",
+      "hourly load shapes",
+      "daily-to-hourly weather disaggregation",
+      "tariff scenario"
+    ],
+    "simulation_outputs": [
+      "8,760-hour energy balance",
+      "15 scenario/configuration comparisons",
+      "battery dispatch",
+      "cost and carbon estimates"
+    ]
+  },
+  "headline_design_result": {
+    "scenario": "design",
+    "configuration": "full_microgrid_v2g",
+    "annual_load_mwh": 11774.0,
+    "annual_pv_generation_mwh": 2505.0304946699202,
+    "grid_import_mwh": 9339.009502128269,
+    "grid_export_mwh": 0.0,
+    "peak_grid_import_kw": 2540.0613984175334,
+    "net_energy_cost_hkd": 12526775.617574764,
+    "carbon_emissions_tco2e": 3548.823610808742,
+    "pv_self_consumption_percent": 100.0,
+    "load_self_sufficiency_percent": 20.681081177779266,
+    "battery_capacity_kwh": 2800.0,
+    "battery_power_kw": 1120.0,
+    "peak_reduction_percent": 29.43861324016071,
+    "grid_import_reduction_percent": 20.681081177779266,
+    "energy_cost_saving_percent": 21.942786220322468,
+    "objective_cost_saving_percent": 21.602142877802148,
+    "carbon_reduction_percent": 20.681081177779266,
+    "self_consumption_gain_percentage_points": 100.0,
+    "self_sufficiency_gain_percentage_points": 20.681081177779266
+  },
+  "mandatory_disclosure": "All results are prospective digital-twin outputs. They are not field measurements, certified performance, or guaranteed future savings."
+}

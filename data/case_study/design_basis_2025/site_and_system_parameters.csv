@@ -1,0 +1,5 @@
+﻿asset_id,asset_name,building_type,footprint_m2,gross_floor_area_m2,height_m,roof_usable_area_m2,facade_usable_area_m2,annual_eui_kwh_m2,annual_load_target_mwh,source_type
+academic_a,Academic Building A,education,4200,42000,42,2100,4000,145,6090.0,blueprint_design
+residence_b,Residence Building B,residential,2800,50400,58,1400,3800,80,4032.0,blueprint_design
+community_hub_c,Community Hub C,mixed_use,1800,7200,18,1080,1500,160,1152.0,blueprint_design
+public_infrastructure,Public Canopies and Footbridge,public_facility,0,0,0,1800,0,0,500.0,blueprint_design

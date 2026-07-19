@@ -1,0 +1,16 @@
+﻿scenario,configuration,row_count,maximum_balance_error_kw,maximum_simultaneous_charge_discharge_kw,solver,daily_solve_count
+conservative,grid_only,8760,0.0,0.0,not_required,0
+conservative,roof_pv_only,8760,0.0,0.0,not_required,0
+conservative,roof_plus_flexileaf,8760,0.0,0.0,not_required,0
+conservative,roof_plus_flexileaf_battery,8760,4.547473508864641e-13,0.0,scipy.optimize.milp / HiGHS,365
+conservative,full_microgrid_v2g,8760,4.547473508864641e-13,0.0,scipy.optimize.milp / HiGHS,365
+design,grid_only,8760,0.0,0.0,not_required,0
+design,roof_pv_only,8760,0.0,0.0,not_required,0
+design,roof_plus_flexileaf,8760,0.0,0.0,not_required,0
+design,roof_plus_flexileaf_battery,8760,2.3874235921539366e-12,0.0,scipy.optimize.milp / HiGHS,365
+design,full_microgrid_v2g,8760,3.865352482534945e-12,2.122961778614894e-13,scipy.optimize.milp / HiGHS,365
+optimistic,grid_only,8760,0.0,0.0,not_required,0
+optimistic,roof_pv_only,8760,0.0,0.0,not_required,0
+optimistic,roof_plus_flexileaf,8760,0.0,0.0,not_required,0
+optimistic,roof_plus_flexileaf_battery,8760,5.002220859751105e-12,4.831690603168681e-13,scipy.optimize.milp / HiGHS,365
+optimistic,full_microgrid_v2g,8760,6.752998160663992e-11,1.2546852589938322e-13,scipy.optimize.milp / HiGHS,365

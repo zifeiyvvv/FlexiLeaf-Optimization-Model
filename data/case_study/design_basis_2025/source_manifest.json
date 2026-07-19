@@ -1,0 +1,17 @@
+{
+  "solar": {
+    "file": "source/daily_KP_GSR_2025.csv",
+    "sha256": "29ea3d718bd87138385d503aae355114dbc6097342c1cfe290f2f2018e1dfd76",
+    "source_type": "official_open_data"
+  },
+  "humidity": {
+    "file": "source/daily_KP_RH_2025.csv",
+    "sha256": "b8d5472b6717e18b53da6c0f2c1c19a48fbfd044e52d2e7460a4495cfda4c731",
+    "source_type": "official_open_data"
+  },
+  "sunshine": {
+    "file": "source/daily_KP_SUN_2025.csv",
+    "sha256": "61b31b94abea0af0c38143578a6b5e4071ad0d70f594d8dbe579689a20ac5ab5",
+    "source_type": "official_open_data"
+  }
+}

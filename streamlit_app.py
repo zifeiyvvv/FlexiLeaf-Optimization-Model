@@ -706,6 +706,11 @@ with download_tab:
 
 st.divider()
 st.page_link(
+    "pages/3_Design_Basis_Case.py",
+    label="📊 Open Fixed Design-Basis Case / 查看固定模擬案例",
+    use_container_width=True,
+)
+st.page_link(
     "pages/2_Energy_Optimisation.py",
     label="🔋 Continue to Energy Optimisation / 進入能源優化",
     use_container_width=True,

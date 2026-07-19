@@ -1,0 +1,149 @@
+{
+  "case_id": "flexileaf_design_basis_2025",
+  "case_name": "FlexiLeaf Prospective Campus Microgrid — Design Basis 2025",
+  "simulation_year": 2025,
+  "weather_station": "King's Park",
+  "latitude": 22.312,
+  "longitude": 114.1728,
+  "random_seed": 20250719,
+  "annual_mean_temperature_target_c": 24.3,
+  "grid_carbon_intensity_kg_per_kwh": 0.38,
+  "tariff": {
+    "off_peak_hkd_per_kwh": 1.05,
+    "shoulder_hkd_per_kwh": 1.35,
+    "peak_hkd_per_kwh": 1.75,
+    "export_hkd_per_kwh": 0.5
+  },
+  "peak_penalty_hkd_per_kw_day": 12.0,
+  "battery_degradation_hkd_per_kwh": 0.04,
+  "assets": [
+    {
+      "asset_id": "academic_a",
+      "asset_name": "Academic Building A",
+      "building_type": "education",
+      "footprint_m2": 4200,
+      "gross_floor_area_m2": 42000,
+      "height_m": 42,
+      "roof_usable_area_m2": 2100,
+      "facade_usable_area_m2": 4000,
+      "annual_eui_kwh_m2": 145,
+      "facade_orientation_share": {
+        "south": 0.35,
+        "east": 0.25,
+        "west": 0.25,
+        "north": 0.15
+      },
+      "end_use_share": {
+        "hvac": 0.45,
+        "lighting": 0.16,
+        "equipment": 0.29,
+        "lifts_pumps": 0.05,
+        "other": 0.05
+      }
+    },
+    {
+      "asset_id": "residence_b",
+      "asset_name": "Residence Building B",
+      "building_type": "residential",
+      "footprint_m2": 2800,
+      "gross_floor_area_m2": 50400,
+      "height_m": 58,
+      "roof_usable_area_m2": 1400,
+      "facade_usable_area_m2": 3800,
+      "annual_eui_kwh_m2": 80,
+      "facade_orientation_share": {
+        "south": 0.25,
+        "east": 0.25,
+        "west": 0.25,
+        "north": 0.25
+      },
+      "end_use_share": {
+        "hvac": 0.3,
+        "lighting": 0.18,
+        "equipment": 0.38,
+        "lifts_pumps": 0.09,
+        "other": 0.05
+      }
+    },
+    {
+      "asset_id": "community_hub_c",
+      "asset_name": "Community Hub C",
+      "building_type": "mixed_use",
+      "footprint_m2": 1800,
+      "gross_floor_area_m2": 7200,
+      "height_m": 18,
+      "roof_usable_area_m2": 1080,
+      "facade_usable_area_m2": 1500,
+      "annual_eui_kwh_m2": 160,
+      "facade_orientation_share": {
+        "south": 0.4,
+        "east": 0.2,
+        "west": 0.25,
+        "north": 0.15
+      },
+      "end_use_share": {
+        "hvac": 0.42,
+        "lighting": 0.22,
+        "equipment": 0.23,
+        "lifts_pumps": 0.08,
+        "other": 0.05
+      }
+    }
+  ],
+  "public_infrastructure": {
+    "asset_name": "Public Canopies and Footbridge",
+    "usable_pv_area_m2": 1800,
+    "annual_ev_charging_energy_kwh": 500000
+  },
+  "performance_scenarios": {
+    "conservative": {
+      "module_efficiency": 0.18,
+      "roof_area_multiplier": 0.9,
+      "facade_area_multiplier": 0.82,
+      "public_area_multiplier": 0.85,
+      "roof_performance_ratio": 0.74,
+      "facade_performance_ratio": 0.66,
+      "public_performance_ratio": 0.72,
+      "availability": 0.97,
+      "stationary_battery_kwh": 1500,
+      "stationary_battery_kw": 550,
+      "v2g_equivalent_kwh": 450,
+      "v2g_equivalent_kw": 180
+    },
+    "design": {
+      "module_efficiency": 0.2,
+      "roof_area_multiplier": 1.0,
+      "facade_area_multiplier": 1.0,
+      "public_area_multiplier": 1.0,
+      "roof_performance_ratio": 0.82,
+      "facade_performance_ratio": 0.74,
+      "public_performance_ratio": 0.8,
+      "availability": 0.985,
+      "stationary_battery_kwh": 2000,
+      "stationary_battery_kw": 800,
+      "v2g_equivalent_kwh": 800,
+      "v2g_equivalent_kw": 320
+    },
+    "optimistic": {
+      "module_efficiency": 0.22,
+      "roof_area_multiplier": 1.08,
+      "facade_area_multiplier": 1.12,
+      "public_area_multiplier": 1.1,
+      "roof_performance_ratio": 0.87,
+      "facade_performance_ratio": 0.8,
+      "public_performance_ratio": 0.85,
+      "availability": 0.992,
+      "stationary_battery_kwh": 2500,
+      "stationary_battery_kw": 1000,
+      "v2g_equivalent_kwh": 1100,
+      "v2g_equivalent_kw": 440
+    }
+  },
+  "system_configurations": [
+    "grid_only",
+    "roof_pv_only",
+    "roof_plus_flexileaf",
+    "roof_plus_flexileaf_battery",
+    "full_microgrid_v2g"
+  ]
+}
