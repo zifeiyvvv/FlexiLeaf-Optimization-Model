@@ -705,6 +705,11 @@ with download_tab:
     )
 
 st.divider()
+st.page_link(
+    "pages/2_Energy_Optimisation.py",
+    label="🔋 Continue to Energy Optimisation / 進入能源優化",
+    use_container_width=True,
+)
 st.caption(
     "FlexiLeaf is currently a planning and decision-support prototype. "
     "All estimates must be validated through detailed engineering, shading, "
